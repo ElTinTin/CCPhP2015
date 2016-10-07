@@ -1,0 +1,163 @@
+body{
+    background: #000;
+    color:#8a8888;
+}
+
+a{
+     color:#8a8888;
+    text-decoration: none;
+}
+
+.wrap{
+    width:960px;
+    margin: 0 auto;
+}
+
+
+.description{
+    background-color: #000;
+    color:#8a8888;
+    line-height: 50px;
+    margin:20px;
+
+}
+.rouge{
+    color:#d91b3c;
+}
+
+.fondRouge{
+       background-color:#d91b3c; 
+    color:#fff;    
+}
+
+header{
+    overflow: hidden;
+}
+
+
+header nav{
+    float:left;
+    width:180px;
+}
+
+header nav ul li{
+    float :left;
+    width:80px;
+    height:80px;
+    margin:10px 10px 10px 0;
+    text-align: center;
+    background-color:#222;
+}
+
+header h1{
+    margin : 80px 0  0 200px; 
+}
+
+header nav ul li a{
+padding-top: 25px;
+    display: inline-block;
+}
+
+header nav ul li:hover{
+    background-color:#d91b3c; 
+}
+
+main{
+    background-color: #fff;
+}
+
+main>h2{
+     font-size: 40px;
+    padding-top: 20px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    color :#d91b3c; 
+}
+
+main>section{
+        
+      margin :20px;
+}
+main>section form{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+section ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+main>ul>li{
+    margin :20px;
+    background-color: #f7f7f7; 
+    height:138px;
+    overflow: scroll;
+}
+
+main>ul>li>*{
+    width : 655px;
+    padding-left: 250px;
+    padding-top :10px;
+}
+
+main>ul>li p:nth-of-type(1){
+    float:left;
+    width : 60px;
+    height: 118px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top :20px;
+    text-align: center;
+    line-height: 1.4;
+    
+    
+}
+main>ul>li p:nth-of-type(2){
+    width:138px;
+    float:left;
+     padding-left: 0;
+    padding-top :0;
+}
+
+img[src*="plus.png"]{
+    float: right;
+}
+
+
+main>p{
+    margin :20px;
+}
+
+.lesImages{
+    overflow: hidden;
+}
+
+.images img{
+    display: inline-block;
+    width:58px;
+    height:58px;
+}
+
+.lesImages .grande{
+    float:left;
+    width:50%;
+}
+
+.lesImages .images{
+    float:right;
+    width:50%;
+}
+
+
+
+.lesImages .grande img{
+     display: inline-block;
+    width:300px;
+    height:300px;
+}
+
+
+
+
